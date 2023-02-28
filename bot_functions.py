@@ -55,7 +55,7 @@ def get_address_data(address, chain):
 
     headers = {
         "accept": "application/json",
-        "X-API-Key": API_KEY 
+        "X-API-Key": ZhzUFfgUwK2cmJXa3gMeOxWlnskblcb1QFsiimPVuwPsfs6zb6j8KdUot4IqRDcj 
     }
 
     response = requests.get(url, headers=headers)
@@ -72,7 +72,7 @@ def get_token_price(address, chain):
 
     headers = {
         "accept": "application/json",
-        "X-API-Key": API_KEY 
+        "X-API-Key": ZhzUFfgUwK2cmJXa3gMeOxWlnskblcb1QFsiimPVuwPsfs6zb6j8KdUot4IqRDcj 
     }
 
     response = requests.get(url, headers=headers)
