@@ -5,7 +5,7 @@ import time
 
 
 def notify_user(chat_id, message):
-    url = "https://api.telegram.org/bot5748588713%3AAAGMKcVHZB13Njay-Iu7i0tEBoQ9m-lVOzs/sendMessage"
+    url = "https://api.telegram.org/bot5822526647:AAH6RN6bHJGcaIHdWZLmCjx6gs_ofGMMMgY/sendMessage"
 
     payload = {
         "text": message,
